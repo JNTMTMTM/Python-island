@@ -5,3 +5,5 @@ V1.5版本，重新使用了Webview编写，占用从150M（PyQt版本）下降�
 
 
 Python 3.13
+
+这个分支目前开发进度缓慢，可以前往pyislandQt分支查看
