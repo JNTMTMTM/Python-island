@@ -1,6 +1,6 @@
 ---
 title: 分支概览
-icon: code-branch
+icon: info
 order: 1
 ---
 

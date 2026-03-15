@@ -24,7 +24,7 @@ export default sidebar({
   "/branches/": [
     {
       text: "分支版本",
-      icon: "branch",
+      icon: "code-branch",
       children: [
         "/branches/overview.md",
         "/branches/pyislandPyside6.md",

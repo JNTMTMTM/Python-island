@@ -1,6 +1,6 @@
 ---
 title: harmony
-icon: layer-group
+icon: star
 order: 4
 ---
 

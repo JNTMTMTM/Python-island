@@ -1,6 +1,6 @@
 ---
 title: pyislandPyside6
-icon: python
+icon: star
 order: 1
 ---
 

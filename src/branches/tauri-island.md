@@ -1,6 +1,6 @@
 ---
 title: tauri-island
-icon: rust
+icon: star
 order: 2
 ---
 

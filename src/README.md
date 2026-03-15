@@ -58,11 +58,11 @@ highlights:
   - header: 多种分支版本
     features:
       - title: pyislandPyside6
-        icon: python
+        icon: star
         details: 基于 PySide6 的 Python 实现，稳定可靠
 
       - title: tauri-island
-        icon: rust
+        icon: star
         details: 基于 Tauri 2 + Rust 的全新实现，性能更强
 
       - title: pyisland-wanku
@@ -70,7 +70,7 @@ highlights:
         details: 高仿真 iOS 风格版本，支持录屏、媒体控制
 
       - title: harmony
-        icon: layer-group
+        icon: star
         details: 精简版实现，占用小，功能实用
 
 copyright: false
