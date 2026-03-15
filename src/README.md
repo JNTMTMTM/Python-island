@@ -73,3 +73,13 @@ highlights:
         icon: star
         details: 精简版实现，占用小，功能实用
 ---
+
+::: info 项目简介
+Pyisland 是一个运行在 Windows 上的现代灵动岛控制中心，仿 macOS 灵动岛设计，提供丰富的系统集成功能。
+:::
+
+::: tip 推荐分支
+- **新手推荐**: `pyislandPyside6` - 最稳定，功能完整
+- **性能优先**: `tauri-island` - Tauri 2 + Rust，性能更强
+- **高仿真**: `pyisland-wanku` - 最接近 iOS 风格
+:::

@@ -8,10 +8,10 @@ order: 1
 
 本指南将帮助你快速安装和运行 Pyisland 项目。
 
-## 环境要求
-
+::: info 环境要求
 - **操作系统**: Windows 10/11
 - **Python**: 3.11+
+:::
 
 ## 安装步骤
 
@@ -26,12 +26,14 @@ cd Python-island
 
 项目有多个分支版本，建议使用以下稳定版本：
 
+::: info 分支选择
 | 分支 | 技术栈 | 适用场景 |
 |------|--------|----------|
 | `pyislandPyside6` | Python + PySide6 | 稳定版，功能完整 |
 | `tauri-island` | Rust + Tauri 2 | 性能优先，新技术体验 |
 | `pyisland-wanku` | Python + PySide6 | 高仿真 iOS 风格 |
 | `harmony` | Python + PySide6 | 精简版，占用小 |
+:::
 
 切换到指定分支：
 
@@ -42,7 +44,16 @@ git checkout pyislandPyside6
 
 ### 3. 安装 Python 依赖
 
-使用 requirements.txt：
+::: tip 推荐方式
+使用虚拟环境隔离依赖：
+```bash
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+```
+:::
+
+或直接安装：
 
 ```bash
 pip install -r requirements.txt
@@ -69,14 +80,14 @@ python main.py
 
 ## 常见问题
 
-### 托盘图标不显示
-
+::: warning 托盘图标不显示
 确保 `resources/icons/controls/tray.png` 文件存在。
+:::
 
-### 亮度调节无效
-
+::: warning 亮度调节无效
 可能需要以管理员权限运行程序。
+:::
 
-### 模块导入错误
-
+::: danger 模块导入错误
 确保通过 `python main.py` 运行，而不是直接运行子模块文件。
+:::

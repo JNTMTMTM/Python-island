@@ -6,7 +6,9 @@ order: 1
 
 # pyislandPyside6
 
+::: info
 这是 Pyisland 项目的 **稳定版**，基于 Python 和 PySide6 构建，提供了完整的灵动岛功能。
+:::
 
 ## 技术栈
 
@@ -89,9 +91,11 @@ python main.py
 
 ## 适用人群
 
+::: tip
 - 需要稳定版本的日常用户
 - 想要自定义功能的开发者
 - Python 学习者
+:::
 
 ## 相关链接
 
