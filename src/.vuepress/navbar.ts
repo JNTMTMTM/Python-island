@@ -9,17 +9,17 @@ export default navbar([
   {
     text: "使用指南",
     icon: "book",
-    link: "/guide/",
+    link: "/guide/getting-started.html",
   },
   {
     text: "开发指南",
     icon: "code",
-    link: "/develop/",
+    link: "/develop/architecture.html",
   },
   {
     text: "分支版本",
     icon: "branch",
-    link: "/branches/",
+    link: "/branches/pyislandPyside6.html",
   },
   {
     text: "GitHub",
