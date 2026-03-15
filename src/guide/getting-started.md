@@ -11,8 +11,7 @@ order: 1
 ## 环境要求
 
 - **操作系统**: Windows 10/11
-- **Python**: 3.8+
-- **Node.js**: 14+ (仅文档站构建需要)
+- **Python**: 3.11+
 
 ## 安装步骤
 
@@ -43,16 +42,7 @@ git checkout pyislandPyside6
 
 ### 3. 安装 Python 依赖
 
-```bash
-# 安装 PySide6
-pip install PySide6
-
-# 安装其他依赖
-pip install comtypes
-pip install screen_brightness_control
-```
-
-或使用 requirements.txt：
+使用 requirements.txt：
 
 ```bash
 pip install -r requirements.txt
