@@ -11,7 +11,7 @@ export default hopeTheme({
     url: "https://pyisland.com",
   },
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/island_c.svg",
 
   repo: "Python-island/Python-island",
 
