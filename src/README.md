@@ -72,7 +72,4 @@ highlights:
       - title: harmony
         icon: star
         details: 精简版实现，占用小，功能实用
-
-copyright: false
-footer: MIT 许可证 | 版权所有 © 2024 Python-island
 ---

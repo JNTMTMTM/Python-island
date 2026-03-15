@@ -10,7 +10,7 @@ order: 1
 
 ## 技术栈
 
-- **Python 3.7+**
+- **Python 3.11+**
 - **PySide6**: Qt 的 Python 绑定
 - **QSS**: 界面样式定制
 - **Windows API**: 系统功能调用
