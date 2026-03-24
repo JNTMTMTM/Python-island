@@ -9,7 +9,7 @@ export default navbar([
   {
     text: "下载",
     icon: "download",
-    link: "/download/overview.html",
+    link: "/download",
   },
   {
     text: "使用指南",

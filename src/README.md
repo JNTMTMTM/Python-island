@@ -8,7 +8,7 @@ tagline: 用 Python 开发，运行在 Windows 上的现代灵动岛控制中心
 actions:
   - text: 立即下载
     icon: download
-    link: /download/overview
+    link: /download
     type: primary
   - text: 快速开始
     icon: rocket
