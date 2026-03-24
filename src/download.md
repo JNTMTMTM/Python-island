@@ -54,9 +54,9 @@ downloadUrls:
 <p class="target-text">追求稳定可靠的用户</p>
 </div>
 
-<button class="download-btn btn-primary" type="button">
+<a href="https://download.pyisland.com/download/pyisland.exe" class="download-btn btn-primary" type="button">
 立即下载
-</button>
+</a>
 </div>
 
 <div class="version-card">
@@ -86,9 +86,9 @@ downloadUrls:
 <p class="target-text">追求高颜值和丰富功能的用户</p>
 </div>
 
-<button class="download-btn btn-featured" type="button">
+<a href="" class="download-btn btn-featured" type="button">
 立即下载
-</button>
+</a>
 </div>
 
 <div class="version-card">
@@ -118,9 +118,9 @@ downloadUrls:
 <p class="target-text">追求性能和轻量化的用户</p>
 </div>
 
-<button class="download-btn btn-perf" type="button">
+<a href="https://download.pyisland.com/download/DynamicIsland_0.2.0_x64-setup.exe" class="download-btn btn-perf" type="button">
 立即下载
-</button>
+</a>
 </div>
 
 </div>
