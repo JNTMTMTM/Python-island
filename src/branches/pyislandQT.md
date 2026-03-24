@@ -17,7 +17,7 @@ order: 1
 - **Python >= 3.10**
 - **PyQt5**: Qt 的 Python 绑定
 - **asyncio**: 异步事件循环
-- **PowerShell**: 蓝牙监控
+- **[windows-bluetooth-watcher](https://github.com/starwindv/windows-bluetooth-watcher)**: 由 rust 提供支持的高性能蓝牙连通监听库
 
 ## 功能列表
 
@@ -26,15 +26,13 @@ order: 1
 - ✅ 灵动岛胶囊形态设计
 - ✅ 实时时间显示
 - ✅ 鼠标悬停展开 / 移开收缩
-- ✅ 自动形态切换（顶部横向、侧边纵向）
-- ✅ 32px 超大圆角设计
+- ✅ DebugServer 调试服务器
 
 ### 系统控制（托盘菜单）
 
 - ✅ 置顶窗口
 - ✅ 点击穿透
 - ✅ 位置锁定
-- ✅ 亮度调节（滑动条）
 - ✅ 防抖机制
 - ✅ 系统托盘
 
@@ -42,7 +40,6 @@ order: 1
 
 - ✅ WiFi / 网络状态监控
 - ✅ 蓝牙设备连接监控
-- ✅ 电池状态监控（部分版本）
 
 ### 通知功能
 
@@ -51,41 +48,32 @@ order: 1
 
 ### 实用功能
 
-- ✅ 剪贴板 URL 检测
-- ✅ 快捷打开链接
-- ✅ 全局快捷键
-
-## 资源占用
-
-### 测试环境
-
-| 环境 | 版本 |
-|------|------|
-| 操作系统 | Windows 11 家庭中文版 |
-| CPU | Intel Core i7-12800 |
-| 内存 | 16 GB |
-
-### 运行时表现
-
-- **内存占用**: 运行一小时后稳定在约 `20744 KB`，最高不超过 `24000 KB`
-- **启动用时**: 不到 **3 秒**
+- ✅ 全局截图快捷键 ( ctrl+shift+z)
 
 ## 项目结构
 
 ```
-PyIsland/
-├── Configure.py      # 配置管理模块（单例模式）
-├── Monitor.py       # 异步监控模块（网络 / 蓝牙）
-├── Display/         # 显示层模块
-│   ├── Island.py    # 主窗口类（DynamicIslandWindow）
-│   └── Container.py # 胶囊容器（CapsuleWidget）
-├── EventBus/        # 事件总线模块
-│   ├── Bus.py       # 事件管理器（单例模式 + 队列处理）
-│   └── EventDefine.py # 事件定义与通知模板
-└── main/
+PyIsland
+├── __init__.py
+├── Configure.py
+├── Debugger
+│   └── server.py
+├── Display
+│   ├── Container.py
+│   └── Island.py
+├── EventBus
+│   ├── Bus.py
+│   └── EventDefine.py
+├── instance.py
+├── main.py
+├── Monitor
+│   ├── BlueToothMonitor.py
+│   ├── KeyBoardMonitor.py
+│   ├── Monitor.py
+│   └── NetworkMonitor.py
+└── Pluging
     ├── __init__.py
-    ├── _island_instance.py # 灵动岛本体入口
-    └── island.py           # 守护进程化入口
+    └── Screenshot.py
 ```
 
 ## 事件驱动模型
@@ -128,7 +116,7 @@ self._handle_notification(event_data) -> show_notification()
 
 - **异步监控线程**: 继承 `QThread` 并集成 `asyncio` 事件循环
 - **网络监控**: 通过异步 DNS 查询检测网络连通性
-- **蓝牙监控**: 调用 PowerShell 命令获取已连接蓝牙设备
+- **蓝牙监控**: 使用rust编写的高性能库来注册蓝牙事件回调
 - **配置化间隔**: 监控间隔通过配置文件动态调整
 
 ## 安装运行
