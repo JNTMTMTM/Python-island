@@ -56,6 +56,11 @@
   color: white;
 }
 
+.tag-light {
+  background: linear-gradient(135deg, #10b981, #059669);
+  color: white;
+}
+
 .version-icon {
   font-size: 2rem;
   opacity: 0.2;
@@ -197,6 +202,15 @@
 
 .btn-perf:hover {
   background: linear-gradient(135deg, #7c3aed, #0891b2);
+}
+
+.btn-light {
+  background: linear-gradient(135deg, #10b981, #059669);
+  color: white;
+}
+
+.btn-light:hover {
+  background: linear-gradient(135deg, #059669, #047857);
 }
 
 @media (max-width: 768px) {

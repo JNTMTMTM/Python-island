@@ -28,6 +28,7 @@ export default sidebar({
       children: [
         "/branches/overview.md",
         "/branches/pyislandPyside6.md",
+        "/branches/pyislandQT.md",
         "/branches/tauri-island.md",
         "/branches/pyisland-wanku.md"
       ],

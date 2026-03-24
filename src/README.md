@@ -26,7 +26,7 @@ highlights:
 
       - title: 多种技术实现
         icon: code
-        details: 提供 PySide6 (Python) 和 Tauri 2 (Rust) 两种技术版本
+        details: 提供 PyQt5、PySide6 (Python) 和 Tauri 2 (Rust) 三种技术版本
 
       - title: 丰富的系统集成
         icon: gauge-high
@@ -63,6 +63,10 @@ highlights:
       - title: pyislandPyside6
         icon: star
         details: 基于 PySide6 的 Python 实现，稳定可靠
+
+      - title: pyislandQT
+        icon: star
+        details: 基于 PyQt5 的轻量实现，事件驱动架构，资源占用极低
 
       - title: tauri-island
         icon: star

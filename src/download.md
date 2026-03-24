@@ -9,6 +9,9 @@ actions:
   - text: pyislandPyside6
     icon: download
     link: https://download.pyisland.com/download/pyisland.exe
+  - text: pyislandQT
+    icon: download
+    link: download
   - text: pyisland-wanku
     icon: download
     link: download
@@ -16,7 +19,8 @@ actions:
     icon: download
     link: https://download.pyisland.com/download/DynamicIsland_0.2.0_x64-setup.exe
 downloadUrls:
-  pyislandPyside6: "https://download.pyisland.com/download/pyisland.exe" 
+  pyislandPyside6: "https://download.pyisland.com/download/pyisland.exe"
+  pyislandQT: ""
   pyisland-wanku: ""
   tauri-island: "https://download.pyisland.com/download/DynamicIsland_0.2.0_x64-setup.exe"
 ---
@@ -55,6 +59,38 @@ downloadUrls:
 </div>
 
 <a href="https://download.pyisland.com/download/pyisland.exe" class="download-btn btn-primary" type="button">
+立即下载
+</a>
+</div>
+
+<div class="version-card">
+<div class="card-header">
+<span class="version-tag tag-light">轻量版</span>
+</div>
+
+<h3 class="card-title">pyislandQT</h3>
+<p class="card-desc">基于 Python + PyQt5 构建的轻量灵动岛</p>
+
+<div class="card-section">
+<div class="section-label">
+核心特性
+</div>
+<ul class="feature-list">
+<li>事件驱动架构，模块解耦</li>
+<li>资源占用极低，内存 < 24MB</li>
+<li>网络 / 蓝牙状态监控通知</li>
+<li>支持守护进程后台运行</li>
+</ul>
+</div>
+
+<div class="card-section">
+<div class="section-label">
+适用人群
+</div>
+<p class="target-text">追求轻量化和低资源占用的用户</p>
+</div>
+
+<a href="" class="download-btn btn-light" type="button">
 立即下载
 </a>
 </div>
