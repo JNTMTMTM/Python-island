@@ -33,21 +33,21 @@ downloadUrls:
 
 <div class="version-card">
 <div class="card-header">
-<span class="version-tag tag-stable">稳定版</span>
+<span class="version-tag tag-perf">高性能</span>
 </div>
 
-<h3 class="card-title">pyislandPyside6</h3>
-<p class="card-desc">基于 Python + PySide6 构建的成熟稳定版本</p>
+<h3 class="card-title">tauri-island</h3>
+<p class="card-desc">基于 Tauri 2 + Rust 的全新实现</p>
 
 <div class="card-section">
 <div class="section-label">
 核心特性
 </div>
 <ul class="feature-list">
-<li>功能完整，经过充分测试验证</li>
-<li>适合日常使用场景</li>
-<li>易于自定义和二次开发</li>
-<li>社区支持完善，文档齐全</li>
+<li>性能更强，响应更迅速</li>
+<li>安装包体积更小</li>
+<li>原生系统集成度高</li>
+<li>更低的资源占用</li>
 </ul>
 </div>
 
@@ -55,10 +55,10 @@ downloadUrls:
 <div class="section-label">
 适用人群
 </div>
-<p class="target-text">追求稳定可靠的用户</p>
+<p class="target-text">追求性能和轻量化的用户</p>
 </div>
 
-<a href="https://download.pyisland.com/download/pyisland.exe" class="download-btn btn-primary" type="button">
+<a href="https://download.pyisland.com/download/DynamicIsland_0.2.0_x64-setup.exe" class="download-btn btn-perf" type="button">
 立即下载
 </a>
 </div>
@@ -97,6 +97,38 @@ downloadUrls:
 
 <div class="version-card">
 <div class="card-header">
+<span class="version-tag tag-stable">稳定版</span>
+</div>
+
+<h3 class="card-title">pyislandPyside6</h3>
+<p class="card-desc">基于 Python + PySide6 构建的成熟稳定版本</p>
+
+<div class="card-section">
+<div class="section-label">
+核心特性
+</div>
+<ul class="feature-list">
+<li>功能完整，经过充分测试验证</li>
+<li>适合日常使用场景</li>
+<li>易于自定义和二次开发</li>
+<li>社区支持完善，文档齐全</li>
+</ul>
+</div>
+
+<div class="card-section">
+<div class="section-label">
+适用人群
+</div>
+<p class="target-text">追求稳定可靠的用户</p>
+</div>
+
+<a href="https://download.pyisland.com/download/pyisland.exe" class="download-btn btn-primary" type="button">
+立即下载
+</a>
+</div>
+
+<div class="version-card">
+<div class="card-header">
 <span class="version-tag tag-featured">美化版</span>
 </div>
 
@@ -123,38 +155,6 @@ downloadUrls:
 </div>
 
 <a href="" class="download-btn btn-featured" type="button">
-立即下载
-</a>
-</div>
-
-<div class="version-card">
-<div class="card-header">
-<span class="version-tag tag-perf">高性能</span>
-</div>
-
-<h3 class="card-title">tauri-island</h3>
-<p class="card-desc">基于 Tauri 2 + Rust 的全新实现</p>
-
-<div class="card-section">
-<div class="section-label">
-核心特性
-</div>
-<ul class="feature-list">
-<li>性能更强，响应更迅速</li>
-<li>安装包体积更小</li>
-<li>原生系统集成度高</li>
-<li>更低的资源占用</li>
-</ul>
-</div>
-
-<div class="card-section">
-<div class="section-label">
-适用人群
-</div>
-<p class="target-text">追求性能和轻量化的用户</p>
-</div>
-
-<a href="https://download.pyisland.com/download/DynamicIsland_0.2.0_x64-setup.exe" class="download-btn btn-perf" type="button">
 立即下载
 </a>
 </div>
