@@ -51,7 +51,7 @@ actions:
 </div>
 
 <button class="download-btn btn-primary" type="button">
-<span class="btn-icon">⬇</span> 立即下载
+立即下载
 </button>
 </div>
 
@@ -83,7 +83,7 @@ actions:
 </div>
 
 <button class="download-btn btn-featured" type="button">
-<span class="btn-icon">⬇</span> 立即下载
+立即下载
 </button>
 </div>
 
@@ -115,7 +115,7 @@ actions:
 </div>
 
 <button class="download-btn btn-perf" type="button">
-<span class="btn-icon">⬇</span> 立即下载
+立即下载
 </button>
 </div>
 
@@ -123,8 +123,6 @@ actions:
 
 ::: tip 系统要求
 - Windows 10/11 (64位)
-- Python 3.8+ (仅限 Python 版本)
-- 管理员权限（首次运行）
 :::
 
 ::: warning 注意事项
@@ -266,8 +264,7 @@ actions:
 
 .target-text {
   margin: 0;
-  padding: 0.05rem 1rem;
-  background: var(--vp-c-bg);
+  padding: 0.05rem 1rem;  background: var(--vp-c-bg);
   border-radius: 8px;
   color: var(--vp-c-text-2);
   font-size: 0.9rem;
@@ -301,12 +298,12 @@ actions:
   transform: translateY(0);
 }
 
-.btn-icon {
+.fa-download {
   font-size: 1rem;
   transition: transform 0.2s;
 }
 
-.download-btn:hover .btn-icon {
+.download-btn:hover .fa-download {
   transform: translateY(2px);
 }
 
