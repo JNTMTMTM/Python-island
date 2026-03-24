@@ -50,9 +50,9 @@ actions:
 <p class="target-text">追求稳定可靠的用户</p>
 </div>
 
-<a class="card-link" href="/branches/pyislandPyside6">
-<span class="link-icon">→</span> 查看详情
-</a>
+<button class="download-btn btn-primary" type="button">
+<span class="btn-icon">⬇</span> 立即下载
+</button>
 </div>
 
 <div class="version-card">
@@ -82,9 +82,9 @@ actions:
 <p class="target-text">追求高颜值和丰富功能的用户</p>
 </div>
 
-<a class="card-link" href="/branches/pyisland-wanku">
-<span class="link-icon">→</span> 查看详情
-</a>
+<button class="download-btn btn-featured" type="button">
+<span class="btn-icon">⬇</span> 立即下载
+</button>
 </div>
 
 <div class="version-card">
@@ -114,9 +114,9 @@ actions:
 <p class="target-text">追求性能和轻量化的用户</p>
 </div>
 
-<a class="card-link" href="/branches/tauri-island">
-<span class="link-icon">→</span> 查看详情
-</a>
+<button class="download-btn btn-perf" type="button">
+<span class="btn-icon">⬇</span> 立即下载
+</button>
 </div>
 
 </div>
@@ -275,7 +275,7 @@ actions:
 }
 
 /* Buttons */
-.card-btn {
+.download-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -283,16 +283,22 @@ actions:
   width: 100%;
   padding: 0.85rem 1rem;
   margin-top: auto;
-  color: white;
-  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
   font-weight: 600;
+  font-family: inherit;
   border-radius: 10px;
   transition: all 0.25s ease;
 }
 
-.card-btn:hover {
+.download-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.download-btn:active {
+  transform: translateY(0);
 }
 
 .btn-icon {
@@ -300,31 +306,34 @@ actions:
   transition: transform 0.2s;
 }
 
-.card-btn:hover .btn-icon {
+.download-btn:hover .btn-icon {
   transform: translateY(2px);
 }
 
-.card-btn-primary {
+.btn-primary {
   background: linear-gradient(135deg, #3b82f6, #2563eb);
+  color: white;
 }
 
-.card-btn-primary:hover {
+.btn-primary:hover {
   background: linear-gradient(135deg, #2563eb, #1d4ed8);
 }
 
-.card-btn-featured {
+.btn-featured {
   background: linear-gradient(135deg, #f59e0b, #ec4899);
+  color: white;
 }
 
-.card-btn-featured:hover {
+.btn-featured:hover {
   background: linear-gradient(135deg, #ec4899, #db2777);
 }
 
-.card-btn-perf {
+.btn-perf {
   background: linear-gradient(135deg, #8b5cf6, #06b6d4);
+  color: white;
 }
 
-.card-btn-perf:hover {
+.btn-perf:hover {
   background: linear-gradient(135deg, #7c3aed, #0891b2);
 }
 
