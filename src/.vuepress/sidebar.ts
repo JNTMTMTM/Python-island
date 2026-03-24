@@ -29,8 +29,7 @@ export default sidebar({
         "/branches/overview.md",
         "/branches/pyislandPyside6.md",
         "/branches/tauri-island.md",
-        "/branches/pyisland-wanku.md",
-        "/branches/harmony.md",
+        "/branches/pyisland-wanku.md"
       ],
     },
   ],
