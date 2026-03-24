@@ -15,6 +15,10 @@ actions:
   - text: tauri-island
     icon: download
     link: /guide/features
+downloadUrls:
+  pyislandPyside6: "https://download.pyisland.com/download/pyisland.exe" 
+  pyisland-wanku: ""
+  tauri-island: "https://download.pyisland.com/download/DynamicIsland_0.2.0_x64-setup.exe"
 ---
 
 ::: info
