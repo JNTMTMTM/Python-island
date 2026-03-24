@@ -6,10 +6,13 @@ heroImage: /island_c.svg
 heroText: Pyisland
 tagline: 用 Python 开发，运行在 Windows 上的现代灵动岛控制中心
 actions:
+  - text: 立即下载
+    icon: download
+    link: /download/overview
+    type: primary
   - text: 快速开始
     icon: rocket
     link: /guide/getting-started
-    type: primary
   - text: 功能介绍
     icon: lightbulb
     link: /guide/features
@@ -68,18 +71,4 @@ highlights:
       - title: pyisland-wanku
         icon: star
         details: 高仿真 iOS 风格版本，支持录屏、媒体控制
-
-      - title: harmony
-        icon: star
-        details: 精简版实现，占用小，功能实用
 ---
-
-::: info 项目简介
-Pyisland 是一个运行在 Windows 上的现代灵动岛控制中心，仿 macOS 灵动岛设计，提供丰富的系统集成功能。
-:::
-
-::: tip 推荐分支
-- **新手推荐**: `pyislandPyside6` - 最稳定，功能完整
-- **性能优先**: `tauri-island` - Tauri 2 + Rust，性能更强
-- **高仿真**: `pyisland-wanku` - 最接近 iOS 风格
-:::
