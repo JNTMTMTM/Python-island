@@ -201,7 +201,6 @@ actions:
   opacity: 0.2;
 }
 
-/* Title & Description */
 .card-title {
   margin: 0 0 0.5rem 0;
   font-size: 1.4rem;
@@ -217,7 +216,6 @@ actions:
   line-height: 1.5;
 }
 
-/* Sections */
 .card-section {
   margin-bottom: 1rem;
 }
@@ -268,7 +266,7 @@ actions:
 
 .target-text {
   margin: 0;
-  padding: 0.75rem 1rem;
+  padding: 0.05rem 1rem;
   background: var(--vp-c-bg);
   border-radius: 8px;
   color: var(--vp-c-text-2);
@@ -276,8 +274,8 @@ actions:
   font-style: italic;
 }
 
-/* Link */
-.card-link {
+/* Buttons */
+.card-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -285,7 +283,6 @@ actions:
   width: 100%;
   padding: 0.85rem 1rem;
   margin-top: auto;
-  background: var(--vp-c-brand-1);
   color: white;
   text-decoration: none;
   font-weight: 600;
@@ -293,19 +290,42 @@ actions:
   transition: all 0.25s ease;
 }
 
-.card-link:hover {
-  background: var(--vp-c-brand-2);
+.card-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(var(--vp-c-brand-1-rgb), 0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-.link-icon {
+.btn-icon {
   font-size: 1rem;
   transition: transform 0.2s;
 }
 
-.card-link:hover .link-icon {
-  transform: translateX(4px);
+.card-btn:hover .btn-icon {
+  transform: translateY(2px);
+}
+
+.card-btn-primary {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+}
+
+.card-btn-primary:hover {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+}
+
+.card-btn-featured {
+  background: linear-gradient(135deg, #f59e0b, #ec4899);
+}
+
+.card-btn-featured:hover {
+  background: linear-gradient(135deg, #ec4899, #db2777);
+}
+
+.card-btn-perf {
+  background: linear-gradient(135deg, #8b5cf6, #06b6d4);
+}
+
+.card-btn-perf:hover {
+  background: linear-gradient(135deg, #7c3aed, #0891b2);
 }
 
 @media (max-width: 768px) {
